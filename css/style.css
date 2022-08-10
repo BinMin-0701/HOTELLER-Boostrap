@@ -470,8 +470,12 @@ img.hoteller {
   padding: 24px 0 48px;
 }
 
-.section-exclusive .content h5 {
+.section-exclusive .col-12.col-md-4 h5 {
   color: #AC9D80;
+}
+
+.section-exclusive .col-12.col-md-4.king_rooms h5{
+  color: #FFF;
 }
 
 #btn-viewroom-middle {
