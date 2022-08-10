@@ -210,40 +210,15 @@ header h1 {
 
 /* Begin: Title Hoteller Hotel specialises in providing luxury */
 .row.section-img-hoteller{
-  display: block;
   padding-top: 120px;
-  margin: auto;
 }
 
-@media (min-width: 576px) {
-  .row.section-img-hoteller {
-    display: inline-flex;
-  }
-}
-
-@media (min-width: 768px) {
-  .row.section-img-hoteller {
-    display: flex;
-  }
+.col-md-6.img-hoteller {
+  padding: 8 18px;
 }
 
 img.hoteller {
   width: 100%;
-}
-
-@media (min-width: 576px) {
-  .img-hoteller {
-    margin: 0 8px;
-  }
-  #img-hoteller-right-top {
-    margin-bottom: 16px;
-  }
-}
-
-@media (min-width: 992px) {
-  .img-hoteller {
-    margin: 0 18px;
-  }
 }
 
 #img-hoteller-left {
@@ -259,6 +234,13 @@ img.hoteller {
   padding: 29px 69px 20px;
 }
 
+@media (min-width: 768px) {
+  .evaluate {
+    bottom: -18px;
+    position: absolute;
+  }
+}
+
 .d-flex.justify-content-center.evaluate-box{
   padding-bottom: 29px;
 }
@@ -266,13 +248,6 @@ img.hoteller {
 .d-flex.justify-content-center.evaluate-box h1 {
   font-size: 72px !important;
   padding-right: 11px;
-}
-
-@media (min-width: 768px) {
-  .evaluate {
-    bottom: 0;
-    position: absolute;
-  }
 }
 
 .star {
@@ -305,12 +280,16 @@ img.hoteller {
 
 .frame-box-content .col-6 h1 {
   color: #AC9D80;
-  font-size: 96px !important;
+  font-size: 80px !important;
   line-height: 74px !important;
   letter-spacing: -0.02em;
 }
 
 @media (min-width: 768px) {
+  .frame-box-content .col-6 h1 {
+    font-size: 96px !important;
+  }
+
   .frame-box-content .col-6 {
     padding: 0 18px;
   }
@@ -470,7 +449,6 @@ img.hoteller {
 
 .row.text-center.section-exclusive .col-12 {
   background: #F9F9F9;
-  padding: 0 !important;
 }
 
 .section-exclusive .col-12.col-md-4.king_rooms {
