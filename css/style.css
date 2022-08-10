@@ -177,6 +177,7 @@ header h1 {
 }
 
 .title-head h5 {
+  color: #AC9D80;
   padding: 8px 0 12px;
 }
 
@@ -467,6 +468,10 @@ img.hoteller {
 .section-exclusive .content p {
   max-width: 437px;
   padding: 24px 0 48px;
+}
+
+.section-exclusive .content h5 {
+  color: #AC9D80;
 }
 
 #btn-viewroom-middle {
