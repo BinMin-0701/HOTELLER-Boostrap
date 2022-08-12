@@ -706,8 +706,14 @@ img.hoteller {
 }
 
 /* Begin: WELCOME TO Hoteller hotel */
-.col-12.col-sm-6.welcome-title {
+.col-12.col-md-6.welcome-title {
   padding: 0 18px;
+}
+
+@media (max-width: 768px) {
+  #section-welcome-first {
+    padding-bottom: 18px;
+  }
 }
 
 .section-banner {
