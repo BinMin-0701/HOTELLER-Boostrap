@@ -874,7 +874,6 @@ nav#sun-wave-rooms {
 }
 
 .d-grid.sun-way-room-content.out-rooms {
-  /* grid-template-columns: auto auto; */
   gap: 36px;
 }
 
@@ -922,9 +921,6 @@ nav#sun-wave-rooms {
   content: '|';
   padding: 0 8px;
 }
-
-.d-grid.sun-way-room-row {}
-
 /* End: page rooms */
 
 /* Begin: Page Room Detals */
@@ -1054,6 +1050,7 @@ nav#sun-wave-rooms {
 }
 
 /* End: We strive to be the best in our field to make your vacation more comfortable */
+
 .other-rooms img {
   max-height: 400px;
   object-fit: cover;
@@ -1063,7 +1060,7 @@ nav#sun-wave-rooms {
   padding: 0 18px;
 }
 
-/* End */
+/* End: Page Room Detals */
 
 /* Page Gallery */
 .gallery-group-img .d-grid {
