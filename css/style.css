@@ -7,7 +7,8 @@
   box-sizing: border-box;
 }
 
-body,p {
+body,
+p {
   font-family: var(--manrope) !important;
   font-weight: 400;
   font-size: 14px;
@@ -18,7 +19,7 @@ p {
   margin: 0 !important;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -85,7 +86,7 @@ nav {
   right: 0;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #mainNav {
     background: none;
   }
@@ -93,7 +94,7 @@ nav {
 
 @media (min-width: 1400px) {
   #mainNav {
-    padding: 28px 114px 0; 
+    padding: 28px 114px 0;
   }
 }
 
@@ -135,17 +136,18 @@ a.btn {
   border-radius: 0;
 }
 
-.button-bookstay a{
+.button-bookstay a {
   background-color: #AC9D80;
   color: #FFF;
 }
 
-.button-bookstay a:hover{
+.button-bookstay a:hover {
   background: #F9F9F9;
   border: none;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   color: #AC9D80;
 }
+
 /* End: Nav */
 
 /* Begin: Header */
@@ -153,7 +155,7 @@ header {
   background: url(../img/bg_head.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll;  
+  background-attachment: scroll;
   color: #FFF;
   padding: 168px 0 96px;
 }
@@ -174,6 +176,7 @@ header {
     line-height: 78px !important;
   }
 }
+
 /* End: Header */
 
 
@@ -215,7 +218,7 @@ header {
   color: #AC9D80;
 }
 
-.btn-discover a:hover{
+.btn-discover a:hover {
   border: none;
   color: #FFF;
   background: #AC9D80;
@@ -223,7 +226,7 @@ header {
 }
 
 /* Begin: Title Hoteller Hotel specialises in providing luxury */
-.row.section-img-hoteller{
+.row.section-img-hoteller {
   padding-top: 120px;
 }
 
@@ -255,7 +258,7 @@ img.hoteller {
   }
 }
 
-.d-flex.justify-content-center.evaluate-box{
+.d-flex.justify-content-center.evaluate-box {
   padding-bottom: 29px;
 }
 
@@ -353,7 +356,8 @@ img.hoteller {
     flex-direction: row;
   }
 
-  .col-12.col-md.section-our-content, .section-our-img {
+  .col-12.col-md.section-our-content,
+  .section-our-img {
     margin: 0 16px;
   }
 
@@ -361,6 +365,7 @@ img.hoteller {
     flex-direction: row-reverse;
   }
 }
+
 /* End */
 
 .option-services .col-6.option {
@@ -444,6 +449,7 @@ img.hoteller {
   padding: 0;
   width: 8px;
 }
+
 /* End What People Say */
 
 /* Begin: exclusive offer */
@@ -487,13 +493,14 @@ img.hoteller {
   color: #AC9D80;
 }
 
-.section-exclusive .col-12.col-md-4.king_rooms h5{
+.section-exclusive .col-12.col-md-4.king_rooms h5 {
   color: #FFF;
 }
 
 #btn-viewroom-middle {
   border-color: #FFF;
 }
+
 /* End: exclusive offer */
 
 /* Begin: Latest News */
@@ -503,7 +510,7 @@ img.hoteller {
   flex-direction: column;
 }
 
-.section-latets .first{
+.section-latets .first {
   padding-top: 64px;
 }
 
@@ -540,18 +547,18 @@ img.hoteller {
   max-width: 612px;
 }
 
-.section-latets-content p:first-child{
+.section-latets-content p:first-child {
   color: #828282;
   font-size: 12px;
   line-height: 22px;
   margin: 0;
 }
 
-.section-latets-content p span{
+.section-latets-content p span {
   color: #AC9D80;
 }
 
-.section-latets-content p span::after{
+.section-latets-content p span::after {
   content: "|";
   margin: 8px;
 }
@@ -564,6 +571,7 @@ img.hoteller {
   color: #4F4F4F;
   padding: 12px 0 12px;
 }
+
 /* End: Latest News */
 
 /* Begin: OUR PHOTO GALLER */
@@ -602,6 +610,7 @@ img.hoteller {
     gap: 36px;
   }
 }
+
 /* End: OUR PHOTO GALLER */
 
 /* Begin: footer */
@@ -622,7 +631,7 @@ img.hoteller {
 
   .connect .col-md-4.last {
     border-right: 1px dashed #E0E0E0;
-  }  
+  }
 }
 
 .connect .box {
@@ -634,7 +643,7 @@ img.hoteller {
   padding-bottom: 24px;
 }
 
-.connect  p {
+.connect p {
   padding-bottom: 8px;
 }
 
@@ -643,7 +652,7 @@ img.hoteller {
 }
 
 .social {
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   max-width: 155px;
 }
 
@@ -679,6 +688,7 @@ img.hoteller {
 .end_page {
   padding: 40px 0 52px;
 }
+
 /* End: Footer */
 
 @media (max-width: 768px) {
@@ -699,6 +709,7 @@ img.hoteller {
 .title-header {
   padding-top: 16px;
 }
+
 /* ... > ... */
 .child::before {
   content: '>';
@@ -754,7 +765,7 @@ img.hoteller {
     right: 0;
     position: absolute;
     top: 0;
-    }
+  }
 
   .row.section-payment-content {
     justify-content: space-between;
@@ -779,6 +790,7 @@ img.hoteller {
 .col.p-0.welcome-content-image {
   max-width: 96px;
 }
+
 /*  */
 
 /*  */
@@ -839,13 +851,14 @@ a#btn-bg-none:hover {
 
 #our-photo-gallar-aboutUs {
   padding-bottom: 120px;
-} 
+}
 
 
 /* Begin: page Rooms */
 #sun-wave-rooms a.nav-link.active {
   color: #AC9D80;
 }
+
 #sun-wave-rooms a {
   color: #333;
   font-size: 20px !important;
@@ -906,14 +919,13 @@ nav#sun-wave-rooms {
 }
 
 
-.show_rooms_information p.first span:first-child::after{
+.show_rooms_information p.first span:first-child::after {
   content: '|';
   padding: 0 8px;
 }
 
-.d-grid.sun-way-room-row {
-  
-}
+.d-grid.sun-way-room-row {}
+
 /* End: page rooms */
 
 /* Begin: Page Room Detals */
@@ -960,7 +972,7 @@ nav#sun-wave-rooms {
   padding: 32px 0 78px;
 }
 
-.btn-book-our-room a{
+.btn-book-our-room a {
   background: #332A21;
   color: #FFF;
   width: 100%;
@@ -968,7 +980,7 @@ nav#sun-wave-rooms {
 
 @media (min-width: 768px) {
   .info-rooms-details-left {
-      max-width: 396px;
+    max-width: 396px;
   }
 
   .info-rooms-details {
@@ -985,7 +997,7 @@ nav#sun-wave-rooms {
 }
 
 .d-flex.align-items-baseline.amenities-item {
-  padding: 12px 0 ;
+  padding: 12px 0;
 }
 
 .amenities-services h3 {
@@ -1019,13 +1031,14 @@ nav#sun-wave-rooms {
 
   .amenities-services {
     max-width: 828px;
-  } 
+  }
 
   .amenities-row {
     max-width: 273px;
     margin-right: 111px;
-  }  
+  }
 }
+
 /* End: content first */
 
 /* Begin: We strive to be the best in our field to make your vacation more comfortable */
@@ -1038,8 +1051,9 @@ nav#sun-wave-rooms {
 }
 
 .rooms-detail-group-img .row img.col {
-  padding: 0 18px 0 ;
+  padding: 0 18px 0;
 }
+
 /* End: We strive to be the best in our field to make your vacation more comfortable */
 .other-rooms img {
   max-height: 400px;
@@ -1047,8 +1061,9 @@ nav#sun-wave-rooms {
 }
 
 .col-12.col-md-6.show_rooms_information {
-  padding:  0 18px;
+  padding: 0 18px;
 }
+
 /* End */
 
 /* Page Gallery */
@@ -1079,6 +1094,7 @@ nav#sun-wave-rooms {
   .gallery-group-img {
     gap: 24px;
   }
+
   .gallery-group-img .d-grid {
     gap: 24px;
   }
@@ -1108,7 +1124,7 @@ nav#sun-wave-rooms {
   .d-grid.title-contact-head {
     grid-template-columns: auto auto auto;
     gap: 36px;
-  }  
+  }
 
   .row.title-contact-head.text-center {
     gap: 36px;
@@ -1134,12 +1150,13 @@ nav#sun-wave-rooms {
 
 @media (min-width: 768px) {
   .message .d-grid.m-auto {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 36px;
-  }  
+  }
 }
 
-input.form-control, textarea.form-control {
+input.form-control,
+textarea.form-control {
   background: #F9F9F9;
   border: none;
   border-radius: 0;
