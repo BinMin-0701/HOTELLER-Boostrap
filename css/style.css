@@ -128,6 +128,7 @@ nav {
 
 .button a {
   padding: 12px 32px;
+  font-weight: 600;
 }
 
 a.btn {
@@ -313,26 +314,26 @@ img.hoteller {
   }
 }
 
-.row.section-our {
+.section-our {
   padding-top: 120px;
 }
 
-.col.section-our-content {
+.col-12.col-md.section-our-content {
   background: #F9F9F9;
   padding: 48px 48px 0;
 }
 
 @media (min-width: 576px) {
-  .col.section-our-content {
+  .col-12.col-md.section-our-content {
     padding: 74px 72px 0;
   }
 }
 
-.col.section-our-content p {
+.col-12.col-md.section-our-content p {
   padding: 48px 0 64px;
 }
 
-.col.section-our-content .button-bookstay {
+.col-12.col-md.section-our-content .button-bookstay {
   padding-bottom: 80px;
 }
 
@@ -344,7 +345,7 @@ img.hoteller {
 
 
 @media (min-width: 992px) {
-  .col.section-our-content {
+  .col-12.col-md.section-our-content {
     max-width: 504px;
   }
 
@@ -352,7 +353,7 @@ img.hoteller {
     flex-direction: row;
   }
 
-  .section-our-content, .section-our-img {
+  .col-12.col-md.section-our-content, .section-our-img {
     margin: 0 16px;
   }
 
