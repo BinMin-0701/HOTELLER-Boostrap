@@ -279,7 +279,7 @@ img.hoteller {
 }
 
 .frame-box-content {
-  padding: 64px 0 120px;
+  padding: 64px 0 0;
 }
 
 .frame-box-content .col-6 {
@@ -314,7 +314,7 @@ img.hoteller {
 }
 
 .row.section-our {
-  flex-direction: column;
+  padding-top: 120px;
 }
 
 .col.section-our-content {
@@ -462,6 +462,10 @@ img.hoteller {
 
 .section-exclusive .col-12.col-md-4.king_rooms {
   background: #AC9D80;
+  color: #FFF;
+}
+
+.section-exclusive .col-12.col-md-4.king_rooms h3 {
   color: #FFF;
 }
 
