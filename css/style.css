@@ -790,10 +790,9 @@ img.hoteller {
 .col.p-0.welcome-content-image {
   max-width: 96px;
 }
+/* End: WELCOME TO Hoteller hotel */
 
-/*  */
-
-/*  */
+/* Begin: Inspired by the principles of mindfulness */
 .row.inspired-option {
   display: grid;
   gap: 25px;
@@ -852,7 +851,7 @@ a#btn-bg-none:hover {
 #our-photo-gallar-aboutUs {
   padding-bottom: 120px;
 }
-
+/* End: page About Us */
 
 /* Begin: page Rooms */
 #sun-wave-rooms a.nav-link.active {
